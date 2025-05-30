@@ -1,0 +1,65 @@
+/*hojas de estilo en cascada*/
+
+
+nav
+{
+	background-color: #444444;
+	
+	margin-top: 40px;
+}
+
+ul
+{
+	list-style: none;
+	display: inline-flex;
+
+}
+
+a
+{
+	color: #FFFFFF;
+	padding: 7px;
+	text-decoration: none;
+	text-transform: uppercase;/*Mayusculas a Minisculas*/
+	background-color: rgb(255,50,10);
+
+}
+a:hover/* cuando pase el mouse sobre el enlace*/
+{
+	background-color: #000000;
+	color: blue;
+}
+
+hr
+{
+	background-color: #3399FF;
+	height: 20px;
+}
+
+p
+{
+	background-color: #666666;
+	color: #000000;
+}
+body
+{
+	background-color: #FFFF00;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: double;
+	border-color: #000000;
+}
+img
+{
+	border: solid;
+	border-color: #00FF00;
+	height: 250px;
+	width: 250px;
+}
+img:hover
+{
+	filter: grayscale(100%);
+	size: 150%;
+	width: 250px;
+	border-radius: 50% 50% 50% 50%;/* redondea la imagen*/
+}
